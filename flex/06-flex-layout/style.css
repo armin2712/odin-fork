@@ -7,8 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 img {
@@ -48,27 +46,21 @@ input {
   top: 0;
 }
 
-.right-links,
-.left-links {
-  display: flex;
-  align-items: center;
-
-  margin: 0;
-  padding: 0;
-}
-
 a {
   text-decoration: none;
   color: gray;
 }
 
-li {
+ul {
+  display: flex;
   list-style: none;
   padding: 0.8rem;
+  gap: 1rem;
 }
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
